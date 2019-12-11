@@ -15,7 +15,7 @@ pipeline {
         stage('Testing') {
             steps {
 			
-				sh 'mvn test -Dtest=ControllerAndServiceSuite'
+				
                 }
             }
         stage('Build') {
